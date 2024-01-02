@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project 1</title>
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap Core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- This is for the Icon Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">  
+</head>
+<body>
+        <!-- Header Section Starts -->
+        <header class="header_section">
+                <!-- NavBar Section -->
+                <div class="navbar_container container-fluid">
+                    <nav class="navbar navbar-expand-lg bg-danger-subtle fixed-top"> 
+                        <!-- company brand logo and name-->
+                        <a href="index.html"  class="navbar-brand ms-5">
+                            <img class="logo" src="media/LogoBlack.png" alt="Company Logo">
+                        </a>
+                        <!-- Navigation Buttons -->
+                        <button class="navbar-toggler me-5" type="button" data-bs-toggle="collapse" data-bs-target="#NavbarHeader" aria-controls="NavbarHeader" aria-expanded="false" aria-label="Toggle Navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="navbar-collapse collapse" id="NavbarHeader">
+                            <ul class="navbar-nav text-center navbar-expand-sm mx-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="course.html">Course</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html">About</a>
+                                </li>
+                                <li class="nav-item text-center">
+                                    <a class="nav-link" href="contact.html">Contact Us</a>
+                                </li>
+                                <li class="nav-item ms-5">
+                                    <i class="bi bi-person-check-fill">
+                                    <a href="form.html" class="btn">Log In</a>
+                                    </i>
+                                </li>
+                                <li class="nav-item">
+                                    <form action="" class="d-flex me-5">
+                                        <i class="bi bi-search-heart">
+                                            <button class="btn" type="submit">Search</button>
+                                        </i>
+                                    </form>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav> <!-- end of nav tag -->
+     <!-- contact section -->
+  <section id="contact" class="contact_section" style="background-image: url(media/bg1.png);">
+    <div class="container p-5 m-5 d-flex justify-content-center m-xxl-5 ">
+      <div class="text-lg-start ms-5">
+        <h2 class=""> Contact Us</h2>
+      </div>
+    </div>
+    <div class="container-bg">
+      <div class="row">
+        <div class="col-lg-7 col-md-6 px-0">
+          <div class="map_container">
+            <div class="map-responsive">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.8025490962523!2d121.04624777510531!3d14.553281085927502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c8efd99aad53%3A0xb64b39847a866fde!2sKodeGo!5e0!3m2!1sen!2sph!4v1703218887469!5m2!1sen!2sph"
+                width="100%" height="100%" frameborder="0"; allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-5 px-0">
+          <form action="#">
+            <div>
+              <input type="text" placeholder="Name" />
+            </div>
+            <div>
+              <input type="email" placeholder="Email" />
+            </div>
+            <div>
+              <input type="text" placeholder="Phone" />
+            </div>
+            <div>
+              <input type="text" class="message-box" placeholder="Message" />
+            </div>
+            <div class="d-flex ">
+              <button>
+                SEND
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- end contact section -->
+<!-- footer section -->
+<section class="info_section  layout_padding2-top">
+    <div class="social_container">
+      <div class="social_box p-5">
+        <a href="https://www.facebook.com/socialswithdeozzell">
+            <i class="bi bi-facebook"></i>
+        </a>
+        <a href="https://www.tiktok.com/@deesystems?lang=en">
+            <i class="bi bi-tiktok"></i>
+        </a>
+        <a href="https://www.instagram.com/dee_systems">
+            <i class="bi bi-instagram"></i>
+        </a>
+        <a href="https://open.spotify.com/show/4w5iN7DxalouxwXm9c2yJb?si=b4e57c55842e48e1&nd=1&dlsi=55e496855a664396">
+            <i class="bi bi-spotify"></i>
+        </a>
+      </div>
+    </div>
+    <div class="info_container ">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h6>
+              ABOUT US
+            </h6>
+            <p>
+                DeeSystems will help them create a personalized systems that will help them achieve greater success in business, improve their quality of life, and regain their sanity.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <h6>
+              CONTACT US
+            </h6>
+            <div class="info_link-box">
+              <a href="#">
+                <i class="bi bi-geo"></i>
+                <span> Parañaque, Philippines </span>
+              </a>
+              <a href="">
+                <i class="bi bi-telephone-inbound-fill"></i>
+                <span>+639 12345678901</span>
+              </a>
+              <a href="mailto:contact@deozzellbusiness.com">
+                <i class="bi bi-envelope-arrow-down"></i>
+                <span> contact@deozzellbusiness.com</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer section -->
+    <footer class=" footer_section">
+      <div class="container">
+        <p>
+          &copy; <span id="displayYear"></span> All Rights Reserved By
+          <a href="index.html">DeeSystems Operations and Management Services</a>
+        </p>
+      </div>
+    </footer>
+    <!-- footer section -->
+  </section>
+  <!-- end of info section -->
+     <!-- Bootstrap Javascript Login -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

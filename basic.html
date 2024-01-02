@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project 1</title>
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap Core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- This is for the Icon Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">  
+</head>
+<body>
+        <!-- Header Section Starts -->
+        <header class="header_section">
+                <!-- NavBar Section -->
+                <div class="navbar_container container-fluid">
+                    <nav class="navbar navbar-expand-lg bg-danger-subtle fixed-top"> 
+                        <!-- company brand logo and name-->
+                        <a href="index.html"  class="navbar-brand ms-5">
+                            <img class="logo" src="media/LogoBlack.png" alt="Company Logo">
+                        </a>
+                        <!-- Navigation Buttons -->
+                        <button class="navbar-toggler me-5" type="button" data-bs-toggle="collapse" data-bs-target="#NavbarHeader" aria-controls="NavbarHeader" aria-expanded="false" aria-label="Toggle Navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="navbar-collapse collapse" id="NavbarHeader">
+                            <ul class="navbar-nav text-center navbar-expand-sm mx-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="course.html">Course</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html">About</a>
+                                </li>
+                                <li class="nav-item text-center">
+                                    <a class="nav-link" href="contact.html">Contact Us</a>
+                                </li>
+                                <li class="nav-item ms-5">
+                                    <i class="bi bi-person-check-fill">
+                                    <a href="form.html" class="btn">Log In</a>
+                                    </i>
+                                </li>
+                                <li class="nav-item">
+                                    <form action="" class="d-flex me-5">
+                                        <i class="bi bi-search-heart">
+                                            <button class="btn" type="submit">Search</button>
+                                        </i>
+                                    </form>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav> <!-- end of nav tag -->
+        </header> <!-- end of header tag -->
+        <section class="hero_course p-sm-5" style="background-image: url(media/bg1.png); background: opacity -75px;">
+                    <div class="hero_course justify-content-xl-center mb-2">
+                        <h2 class="text fw-bold mt-2 mb-3">Explore DeeSystems University</h2>
+                        <form action="" class="d-flex me-5 justify-content-center">
+                            <i class="bi bi-search-heart">
+                                <input type="search" placeholder="Search Course Here">
+                                <button class="btn" type="submit">Search</button>
+                            </i>
+                        </form>
+                    </div>
+                </div>
+        </section>
+        <article class="content_container">
+            <div class="row m-2">
+                <div class="col-md-4">
+                    <!-- Main Accordion -->
+                    <div class="accordion accordion-flush" id="Accordion1">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header bg-danger-subtle" id="Heading1">
+                                <button class="accordion-button bg-danger-subtle" type="button" data-bs-toggle="collapse" data-bs-target="#Collapse1" aria-expanded="true" aria-controls="Collapse1">
+                                    Beginner
+                                </button>
+                            </h2>
+                            <div id="Collapse1" class="accordion-collapse collapse-show" data-bs-parent="Accordion1" aria-labelledby="Heading1">
+                                <div class="accordion-body">
+                                    <a href="beginner.html">
+                                        <i class="bi bi-check-circle"></i>
+                                        Project Management Tool For Beginners!
+                                    </a><br>
+                                    <a href="basic.html">
+                                        <i class="bi bi-check-circle"></i>
+                                        Basic Manual
+                                    </a><br>
+                                </div>
+                            </div>
+                            <h2 class="accordion-header" id="Heading2">
+                                <button class="accordion-button bg-danger-subtle" type="button" data-bs-toggle="collapse" data-bs-target="#Collapse2" aria-expanded="true" aria-controls="Collapse1">
+                                    Advanced
+                                </button>
+                            </h2>
+                            <div id="Collapse2" class="accordion-collapse collapse" data-bs-parent="Accordion1" aria-labelledby="Heading2">
+                                <div class="accordion-body">
+                                    <a href="">
+                                        <i class="bi bi-check-circle"></i>
+                                        Project Management 
+                                    </a><br>
+                                    <a href="">
+                                        <i class="bi bi-check-circle"></i>
+                                        Operations Management
+                                    </a><br>
+                                </div>
+                            </div>
+                            <h2 class="accordion-header" id="Heading3">
+                                <button class="accordion-button bg-danger-subtle" type="button" data-bs-toggle="collapse" data-bs-target="#Collapse3" aria-expanded="true" aria-controls="Collapse1">
+                                    Earn Your Certificate
+                                </button>
+                            </h2>
+                            <div id="Collapse3" class="accordion-collapse collapse" data-bs-parent="Accordion1" aria-labelledby="Heading3">
+                                <div class="accordion-body">
+                                    <a href="#ModalRegister">
+                                        <i class="bi bi-patch-check"></i>
+                                        Tech Virtual Assistant
+                                    </a><br>
+                                    <a href="#ModalRegister">
+                                        <i class="bi bi-patch-check"></i>
+                                        Project Manager
+                                    </a><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- This is the end of the accordion -->
+                <!-- Beginner Lesson-->
+                <div class="col-md-8 ">
+                    <div class="container-fluid">
+                        <div class="hero_content justify-content-xl-center mt-2 mb-2">
+                            <h2 class="text fw-bold mt-2 mb-3">Check out this Documents ⤵️</h2>
+                            <p class="text-dark justify-content-center">
+                                This is the second thing you need to know to start customizing your own project management tool. 
+                                <p class="d-inline-flex gap-1">
+                                    <a class="btn" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Read me first!</a>
+                                    <button class="btn bg-danger-subtle" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Download this Checklist</button>
+                                  </p>
+                                  <div class="row">
+                                    <div class="col">
+                                      <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                        <div class="card card-body">
+                                            <h4>The 8-Week Road to Seamless Biz ✨</h4>
+                                            💬 Directions: Use the recommended timeline on the next button to help you focus your efforts in this course. You can even “check off” completed phases, modules, and action items as you progress, so be sure to use your 8-week SetUp Challenge.                                        
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col">
+                                      <div class="collapse multi-collapse" id="multiCollapseExample2">
+                                        <div class="card card-body">
+                                            <a class="text-decoration-none" href="https://doc.clickup.com/5742824/p/h/5f878-32645/d89e2d861e46901">Download Me 🌸</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                        </div>            
+                    </div>
+                </div>
+            </div>   
+        </div> <!-- this is the end tag of row  -->
+    </article>
+<!-- footer section -->
+<section class="info_section  layout_padding2-top">
+    <div class="social_container">
+      <div class="social_box p-5">
+        <a href="https://www.facebook.com/socialswithdeozzell">
+            <i class="bi bi-facebook"></i>
+        </a>
+        <a href="https://www.tiktok.com/@deesystems?lang=en">
+            <i class="bi bi-tiktok"></i>
+        </a>
+        <a href="https://www.instagram.com/dee_systems">
+            <i class="bi bi-instagram"></i>
+        </a>
+        <a href="https://open.spotify.com/show/4w5iN7DxalouxwXm9c2yJb?si=b4e57c55842e48e1&nd=1&dlsi=55e496855a664396">
+            <i class="bi bi-spotify"></i>
+        </a>
+      </div>
+    </div>
+    <div class="info_container ">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h6>
+              ABOUT US
+            </h6>
+            <p>
+                DeeSystems will help them create a personalized systems that will help them achieve greater success in business, improve their quality of life, and regain their sanity.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <h6>
+              CONTACT US
+            </h6>
+            <div class="info_link-box">
+              <a href="#">
+                <i class="bi bi-geo"></i>
+                <span> Parañaque, Philippines </span>
+              </a>
+              <a href="">
+                <i class="bi bi-telephone-inbound-fill"></i>
+                <span>+639 12345678901</span>
+              </a>
+              <a href="mailto:contact@deozzellbusiness.com">
+                <i class="bi bi-envelope-arrow-down"></i>
+                <span> contact@deozzellbusiness.com</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer section -->
+    <footer class=" footer_section">
+      <div class="container">
+        <p>
+          &copy; <span id="displayYear"></span> All Rights Reserved By
+          <a href="index.html">DeeSystems Operations and Management Services</a>
+        </p>
+      </div>
+    </footer>
+    <!-- footer section -->
+  </section>
+  <!-- end of info section -->
+     <!-- Bootstrap Javascript Login -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

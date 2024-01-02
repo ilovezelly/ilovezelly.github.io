@@ -1,0 +1,335 @@
+/* media sizes */
+@media screen and (max-width:320px){
+    section .hero-content {
+        text-align: justify;
+        height: fit-content;
+        padding-top: 5%;
+    }
+    .container-video{
+        display: block;
+       margin: auto;
+    }
+    .container-video iframe {
+        width: 200px;
+        height:315px;
+    }
+    .carousel img{
+        width: 800px;
+    }
+}
+/* tablet view */
+@media screen (min-width: 325px) and (max-width: 1120px){
+    section .hero_content {
+        display: block;
+        margin: auto;
+        text-align: justify;
+        padding: 20% 10% 10% 10%;
+        padding-left: 10%;
+        padding-top: 5%;
+    }
+    section .hero_content .btn {
+        display: block;
+        margin: auto;
+    }
+    .container_video {
+        display: flex;
+        justify-content: center;
+    }
+    .carousel img{
+        width: 800px;
+    }
+}
+/* desktop/laptop view */
+@media screen (min-width: 1199px) and (max-width: 2000px)
+{
+    section .hero_content {
+        display: block;
+        margin: auto;
+        text-align: justify;
+        padding-left: 10%;
+        padding-top: 5%;
+    }
+}
+/* hero section */
+.navbar{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: auto;
+}
+.navbar_container .logo {
+    width: 60px;
+}
+.nav-link:hover{
+    background-color: #ffc96d;
+}
+.btn {
+    color: black;
+}
+.nav-item .btn:hover{
+    background-color: #ffc96d;
+    color: black;
+}
+/* font style */
+h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* section style */
+section .btn {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+section a.btn{
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    background-color: #eb6a68;
+    color: #f7f0f0;
+  }
+  section a.btn:hover {
+    background-color: #ffc96d;
+    color: black;
+}
+
+section .hero_content{
+    display: block;
+    margin: auto;
+    height: 400px;
+    text-align: center;
+    font-size: large;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+/* article style */
+article .article_content {
+    padding-top: 5%;
+}
+article a.btn{
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    background-color: #eb6a68;
+    color: #e7e0e0;
+  }
+  article a.btn:hover {
+    background-color: #ffc96d;
+    color: black;
+  }
+  article p {
+    text-align: justify;
+  }
+.img_section {
+    display: grid;
+    place-items: center;
+}
+/* about section */
+.about_container {
+    background-color: #c1c8a6;
+    color: #0d0b0b;
+}
+.img_box {
+    display: grid;
+    place-items: center;
+}
+.about_container a.btn:hover {
+    background-color: #ffc96d;
+    color: black;
+  }
+  article p {
+    text-align: justify;
+}
+/* contact us */
+.contact_section {
+    position: relative;
+  }  
+  .contact_section .heading_container {
+    margin-bottom: 30px;
+  }
+  .contact_section form {
+    padding-right: 35px;
+    padding: 45px 20px;
+  }
+  .contact_section input {
+    width: 100%;
+    border: 1px solid #eb6a68;
+    height: 50px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    background-color: transparent;
+    outline: none;
+    color: #101010;
+  }
+  
+  .contact_section button {
+    display: inline-block;
+    padding: 12px 45px;
+    background-color: #eb6a68;
+    color: #ffffff;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    display: block;
+    color: #fff;
+    margin: 35px auto 0 auto;
+  }
+  
+  .contact_section button:hover {
+    background-color: #ffc96d;
+    color: #070707;
+  }
+  
+  .contact_section .map_container {
+    height: 100%;
+    min-height: 375px;
+  }
+  
+  .contact_section .map_container .map-responsive {
+    height: 100%;
+  }
+ /* info section */
+ .info_section {
+    position: relative;
+    background-color: #eb6a68;
+    color: aliceblue;
+    margin: 0 45px 45px;
+  }
+  
+  
+  .info_section .social_container .social_box {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .info_section .social_container .social_box a {
+    margin: 0 10px;
+    color: aliceblue;
+    font-size: 24px;
+  }
+  
+  .info_section .info_form form input {
+    outline: none;
+    width: 100%;
+    padding: 7px 10px;
+  }
+  
+  .info_section .info_form form button {
+    padding: 8px 35px;
+    outline: none;
+    border: none;
+    background-color: #fef4f4;
+    color: black;
+    text-transform: uppercase;
+  }
+
+ 
+  .info_section a {
+    text-transform: none;
+  }
+  
+  .info_section h6 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+  
+  .info_section p {
+    color: #f4e7e7;
+  }
+  
+  .info_section .info_link-box a {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+  }
+  
+  .info_section .info_link-box a:hover {
+    color: #ffffff;
+  }
+  
+  .info_section .info_link-box a i {
+    color: #ffffff;
+    margin-right: 5px;
+    font-size: 18px;
+  }
+  
+  .info_section .info_link-box a span {
+    color: #faf2f2;
+  }
+  
+  .info_section .info_link-box a:hover span {
+    color: #ffffff;
+  }
+  
+  /* end info section */
+  /* footer section*/
+  .footer_section {
+    margin-top: 45px;
+    font-weight: 500;
+  }
+  
+  .footer_section p {
+    padding: 20px 0;
+    margin: 0 auto;
+    text-align: center;
+    border-top: 1.5px solid #eeeeee;
+    width: 80%;
+  }
+  
+  .footer_section a {
+    color: #fcf5f5;
+  }
+  /* end footer section*/
+  
+
+/* Course Section */
+  .hero_course{
+    display: block;
+    margin: auto;
+    height: 400px;
+    text-align: center;
+    font-size: large;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+.accordion a{
+  color: #070707;
+  text-decoration: none;
+}
+.accordion a:hover{
+  background-color: #ffc96d;
+}
+.accordion h2{
+  color: #0d0b0b;
+}
+.btn {
+  background-color: #eb6a68;
+  color: #f7f0f0;
+  border: none;
+}
+.btn:hover{
+  background-color: #ffc96d;
+  color: black;
+  border: none;
+}
+button .btn {
+  background-color: #eb6a68;
+  color: #f7f0f0;
+  border: none;
+}
+button .btn:hover{
+  background-color: #ffc96d;
+  color: black;
+  border: none;
+}
