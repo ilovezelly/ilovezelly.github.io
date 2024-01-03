@@ -214,12 +214,11 @@ section .content_container {
   }
  /* info section */
  .info_section {
-    position: relative;
     background-color: #eb6a68;
     color: aliceblue;
-    margin: 0 45px 45px;
+    margin: auto;
+    text-align: justify;
   }
-  
   
   .info_section .social_container .social_box {
     display: flex;
@@ -231,23 +230,7 @@ section .content_container {
     color: aliceblue;
     font-size: 24px;
   }
-  
-  .info_section .info_form form input {
-    outline: none;
-    width: 100%;
-    padding: 7px 10px;
-  }
-  
-  .info_section .info_form form button {
-    padding: 8px 35px;
-    outline: none;
-    border: none;
-    background-color: #fef4f4;
-    color: black;
-    text-transform: uppercase;
-  }
-
- 
+   
   .info_section a {
     text-transform: none;
   }
@@ -277,6 +260,8 @@ section .content_container {
     color: #ffffff;
     margin-right: 5px;
     font-size: 18px;
+    display: flex;
+    align-items: center;
   }
   
   .info_section .info_link-box a span {
@@ -295,7 +280,6 @@ section .content_container {
   }
   
   .footer_section p {
-    padding: 20px 0;
     margin: 0 auto;
     text-align: center;
     border-top: 1.5px solid #eeeeee;
