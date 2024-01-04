@@ -20,6 +20,7 @@
                         <!-- company brand logo and name-->
                         <a href="index.html"  class="navbar-brand ms-5">
                             <img class="logo" src="media/LogoBlack.png" alt="Company Logo">
+                            Deesystems
                         </a>
                         <!-- Navigation Buttons -->
                         <button class="navbar-toggler me-5" type="button" data-bs-toggle="collapse" data-bs-target="#NavbarHeader" aria-controls="NavbarHeader" aria-expanded="false" aria-label="Toggle Navigation">
@@ -82,11 +83,11 @@
                                 <div class="accordion-body">
                                     <a href="beginner.html">
                                         <i class="bi bi-check-circle"></i>
-                                        Project Management Tool For Beginners!
+                                        Learn the Basics
                                     </a><br>
                                     <a href="basic.html">
                                         <i class="bi bi-check-circle"></i>
-                                        Basic Manual
+                                        Software Manual
                                     </a><br>
                                 </div>
                             </div>
@@ -97,11 +98,11 @@
                             </h2>
                             <div id="Collapse2" class="accordion-collapse collapse" data-bs-parent="Accordion1" aria-labelledby="Heading2">
                                 <div class="accordion-body">
-                                    <a href="">
+                                    <a href="advanced.html">
                                         <i class="bi bi-check-circle"></i>
                                         Project Management 
                                     </a><br>
-                                    <a href="">
+                                    <a href="advanced.html">
                                         <i class="bi bi-check-circle"></i>
                                         Operations Management
                                     </a><br>
@@ -114,11 +115,11 @@
                             </h2>
                             <div id="Collapse3" class="accordion-collapse collapse" data-bs-parent="Accordion1" aria-labelledby="Heading3">
                                 <div class="accordion-body">
-                                    <a href="#ModalRegister">
+                                    <a href="" data-bs-toggle="modal" data-bs-target="#ModalRegister2">
                                         <i class="bi bi-patch-check"></i>
                                         Tech Virtual Assistant
                                     </a><br>
-                                    <a href="#ModalRegister">
+                                    <a href="" data-bs-toggle="modal" data-bs-target="#ModalRegister2">
                                         <i class="bi bi-patch-check"></i>
                                         Project Manager
                                     </a><br>
@@ -131,12 +132,12 @@
                 <div class="col-md-8 ">
                     <div class="container-fluid">
                         <div class="hero_content justify-content-xl-center mt-2 mb-2">
-                            <h2 class="text fw-bold mt-2 mb-3">Check out this Documents ⤵️</h2>
+                            <h2 class="text fw-bold mt-2 mb-3">Software Manual</h2>
                             <p class="text-dark justify-content-center">
                                 This is the second thing you need to know to start customizing your own project management tool. 
                                 <p class="d-inline-flex gap-1">
                                     <a class="btn" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Read me first!</a>
-                                    <button class="btn bg-danger-subtle" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Download this Checklist</button>
+                                    <a href="https://doc.clickup.com/5742824/p/h/5f878-32645/d89e2d861e46901" class="btn"> Download Me</a>
                                   </p>
                                   <div class="row">
                                     <div class="col">
@@ -147,13 +148,6 @@
                                         </div>
                                       </div>
                                     </div>
-                                    <div class="col">
-                                      <div class="collapse multi-collapse" id="multiCollapseExample2">
-                                        <div class="card card-body">
-                                            <a class="text-decoration-none" href="https://doc.clickup.com/5742824/p/h/5f878-32645/d89e2d861e46901">Download Me 🌸</a>
-                                        </div>
-                                      </div>
-                                    </div>
                                 </div>
                                 <a href="course.html" class="btn mt-2 mb-5 me-3"> Back to Course Page</a>
                         </div>            
@@ -161,6 +155,193 @@
                 </div>
             </div>   
         </div> <!-- this is the end tag of row  -->
+    <!-- modal to sign up for certification -->
+<div class="modal" id="ModalRegister2" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h4 class="modal-title w-100 fw-bold">Earn your Certificate</h4>
+                <button class="close" data-dismiss="modal" aria-labelledby="close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body mx-3">
+                <section class=" h-100 bg-danger-subtle">
+                    <!-- left panel -->
+                        <div>
+                            <div class="p-5 ">
+                              <h4 class="justify-content-between align-items-center mb-3">
+                                <span class="text-dark">Your E-cart</span>
+                                <span class="badge bg-danger rounded-pill">1</span>
+                              </h4>
+                    <!-- list type -- ecart -->
+                                  <ul class="list-group mb-3">
+                                    <li class="list-group-item d-flex justify-content-between lh-sm">
+                                      <div>
+                                        <h6 class="my-0">Earn Your Certificate</h6>
+                                        <small class="text-muted">Take a 60-minutes exam</small>
+                                      </div>
+                                        <span class="text-muted">$250</span>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between bg-light">
+                                      <div class="text-danger">
+                                        <h6 class="my-0">Promo code</h6>
+                                        <small>EXAMPLECODE</small>
+                                      </div>
+                                        <span class="text-danger">−$50</span>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between">
+                                      <span>Total (Php)</span>
+                                      <strong>$200</strong>
+                                    </li>
+                                  </ul>
+                    <!-- this is the redeem button -->
+                                  <form class="card p-2">
+                                    <div class="input-group">
+                                      <input type="text" class="form-control" placeholder="Promo code"/>
+                                      <button type="submit" class="btn btn-danger">Redeem</button>
+                                    </div>
+                                  </form>
+                            </div>
+                    <!-- right panel -->
+                            <div class="p-5">
+                              <h3 class="mb-5">Billing Address</h3>
+                              <form action="" class="was-validated">
+                                <div class="row">
+                                  <div class="col-md-6 mb-4">
+                                      <div class="form-outline">
+                                          <label for="Fname" class="form-label">First Name</label>
+                                          <input type="text" id="Fname" name="Fname" class="form-control form-control-md" placeholder="First Name" required>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-6 mb-4">
+                                      <div class="form-outline">
+                                          <label for="Lname" class="form-label">Last Name</label>
+                                          <input type="text" id="Lname" name="Lname" class="form-control form-control-md" placeholder="Last Name" required>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-12 mb-4">
+                                      <div class="form-outline">
+                                          <label for="email" class="form-label">Email</label>
+                                          <input type="email" id="email" name="email" class="form-control form-control-md" placeholder="you@example.com" required>
+                                      </div>
+                                  </div>
+                                  <label for="Uname" class="form-label">Username</label>
+                                  <div class="input-group mb-3">
+                                      <span class="input-group-text">@</span>
+                                      <div class="form-floating">
+                                        <input type="text" class="form-control" id="Username" placeholder="Username" required>
+                                        <label for="Username">Username</label>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-12 mb-4">
+                                      <div class="form-outline">
+                                          <label for="Address1" class="form-label">Address</label>
+                                          <input type="text" id="Address1" name="Address1" class="form-control form-control-md" placeholder="1234 Main St" required>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-12 mb-4">
+                                      <div class="form-outline">
+                                          <label for="Address2" class="form-label">Address 2 (Optional)</label>
+                                          <input type="text" id="Address2" name="Address1" class="form-control form-control-md" placeholder="Apartment or Suite">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                <div class="mb-2">
+                                    <label for="Country" class="form-label">Country</label>
+                                    <select name="Country" id="Country" required>
+                                        <!-- 1st option -->
+                                        <option value="0" disabled selected>Choose a Country</option>
+                                        <option value="1">Australia</option>
+                                        <option value="2">Philippines</option>
+                                        <option value="3">United States of America</option>
+                                    </select>
+                                    <label for="State" class="form-label">State</label>
+                                    <select name="State" id="State" required>
+                                          <!-- 2nd option -->
+                                        <option value="0" disabled selected> Choose a City</option>
+                                        <option value="A">Manila</option>
+                                        <option value="B">Cebu</option>
+                                        <option value="C">Davao</option>
+                                    </select>
+                                </div>
+                            </div>
+                <!-- this is the 3rd grid -->
+                            <div>
+                                <div class="border border-subtle-light">
+                                    <input type="checkbox" id="shipping" name="shipping">
+                                    <label for="shipping" class="form-label">Shipping address is the same as my billing address.</label> <br>
+                                    <input type="checkbox" id="save" name="save">
+                                    <label for="save" class="form-label">Save this information for next time.</label>
+                                </div>
+                            </div>
+                <!-- this is for the payment section -->
+                            <div>
+                                <div>
+                                    <h3>Payment</h3>
+                                    <div class="form-check form-check-inline mb-0">
+                                            <label for="Credit" class="form-check-label">Credit Card</label>
+                                            <input class="form-check-input" type="radio" id="Credit" name="Payment" value="Credit">
+                                    </div> <br>
+                                    <div class="form-check form-check-inline mb-0">
+                                            <label for="Debit" class="form-check-label">Debit Card</label>
+                                            <input class="form-check-input" type="radio" id="Debit" name="Payment" value="Debit">
+                                    </div> <br>
+                                    <div class="form-check form-check-inline">
+                                            <label for="PayPal" class="form-check-label">PayPal</label>
+                                            <input class="form-check-input" type="radio" id="PayPal" name="Payment" value="PayPal">
+                                    </div> <br>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div>
+                                    <div class="form-outline">
+                                        <label for="Cname" class="form-label">Name on Card</label>
+                                        <input type="text" id="Cname" name="Cname" class="form-control form-control-md" required>
+                                        <!-- user notification -->
+                                            <div class="valid-feedback">
+                                                Valid Data
+                                            </div>
+                                            <div class="invalid-feedback">
+                                                Full Name as display on card.
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <div class="form-outline">
+                                        <label for="Cnumber" class="form-label">Credit Card Number</label>
+                                        <input type="number" id="Cnumber" name="Cnumber" class="form-control form-control-md" required>
+                                    </div>
+                                </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+                                    <div class="form-outline">
+                                        <label for="Expiration" class="form-label">Expiration Number</label>
+                                        <input type="month" id="Expiration" name="Expiration" class="form-control form-control-md" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <div class="form-outline">
+                                        <label for="CVV" class="form-label">CVV</label>
+                                        <input type="number" id="CVV" name="CVV" class="form-control form-control-md" max="1" min="0" required>
+                                    </div>
+                            </div>
+                <!-- this is the checkout button -->
+                                <div class="d-flex justify-content-sm-center pt-3 mb-5">
+                                <button class="w-100 btn btn-danger btn-lg" type="submit"> Continue to checkout</button>
+                            </div>
+                              </form>
+                            </div>
+                        </div>
+                    </section>
+            </div>
+            <div class="modal-footer">
+                <a href="form.html" class="btn btn-danger">Register</a>
+            </div>
+        </div>
+    </div>
+ </div> <!-- end tag of Modal 2 -->
     </article>
 <!-- footer section -->
 <section class="info_section  layout_padding2-top">

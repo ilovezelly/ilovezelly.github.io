@@ -16,6 +16,9 @@
     .carousel img{
         width: 800px;
     }
+  section .course_img {
+    width: 400px;
+  }
 }
 /* tablet view */
 @media screen (min-width: 325px) and (max-width: 1120px){
@@ -25,7 +28,7 @@
         text-align: justify;
         padding: 20% 10% 10% 10%;
         padding-left: 10%;
-        padding-top: 5%;
+        padding-top: 3%;
     }
     section .hero_content .btn {
         display: block;
@@ -109,18 +112,21 @@ section button{
     background-color: #eb6a68;
     color: #f7f0f0;
 }
+section .text h2 {
+  padding: 10%
+}
 section button:hover{
   background-color: #ffc96d;
   color: black;
 }
-section .hero_content{
+/* hero content */
+section .hero_text{
     display: block;
     margin: auto;
-    height: 400px;
+    height: 300px;
     text-align: center;
     font-size: large;
-    padding-top: 10%;
-    padding-bottom: 5%;
+    padding-top: 3%;
 }
 /* article style */
 article .article_content {
@@ -332,8 +338,20 @@ button .btn:hover{
   color: black;
   border: none;
 }
+section img {
+  display: grid;
+  place-items: center;
+}
 /* Advanced HTML Style CSS */
 section .advanced_container {
   background-color: #ffffff;
   padding-bottom: 10%;
+}
+section .hero_content{
+  display: block;
+  margin: auto;
+  height: 300px;
+  text-align: center;
+  font-size: large;
+  padding-top: 3%;
 }
