@@ -25,12 +25,34 @@ function logIn(event) {
                        psw: psw.value
                     };
 
+    // Get username and password from the form
+    let enteredUsername = usrname.value;
+    let enteredPassword = psw.value;
+
+    // Find student with matching username
+    let foundStudent = data.find(student => student.usrname === enteredUsername);
+
+    // If a student with the entered username is found
+    if (foundStudent) {
+        // Check if the entered password matches the stored password
+        if (foundStudent.psw === enteredPassword) {
+            // Redirect to studentAccess.html
+            window.location.href = "studentAccess.html";
+        } else {
+            // Password doesn't match
+            alert("Incorrect password. Please try again.");
+        }
+    } else {
+        // Username not found
+        alert("Username not found. Please register an account.");
+    }
+
     console.log(studentData);
     data.push(studentData); // Convert array of key-value pairs to object
     localStorage.setItem("studentLogin", JSON.stringify(data));
 
-          // Redirect to studentAccess.html
-        window.location.href = "studentAccess.html";
+        //   // Redirect to studentAccess.html
+        // window.location.href = "studentAccess.html";
 }
 sLogin.addEventListener("submit", logIn);
 
