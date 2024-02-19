@@ -87,7 +87,7 @@
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                 <h4><i class="bi bi-person-bounding-box"></i> Login</h4>
             </div>
-            <div class="modal-body" style="padding:40px 50px;">
+            <div class="modal-body m-5 p-5">
                 <form role="form" id="studentLogin">
                     <div class="form-group">
                         <label for="usrname"><i class="bi bi-person-bounding-box"></i> Username</label>
@@ -167,6 +167,13 @@
                                           <div class="form-outline">
                                               <label for="email" class="form-label">Email</label>
                                               <input type="email" id="email" name="email" class="form-control form-control-md" placeholder="you@example.com"required >
+                                               <!-- user notification -->
+                                               <div class="valid-feedback">
+                                                Valid Data
+                                            </div>
+                                            <div class="invalid-feedback">
+                                                Please add valid email address
+                                            </div>
                                           </div>
                                       </div>
                                       <label for="Uname" class="form-label">Username</label>
@@ -175,12 +182,26 @@
                                           <div class="form-floating">
                                             <input type="text" class="form-control" id="Username" placeholder="Username" required >
                                             <label for="Username">Username</label>
+                                             <!-- user notification -->
+                                             <div class="valid-feedback">
+                                                Valid Data
+                                            </div>
+                                            <div class="invalid-feedback">
+                                                Please add unique username.
+                                            </div>
                                           </div>
                                       </div>
                                       <div class="col-md-12 mb-4">
                                           <div class="form-outline">
                                               <label for="Address1" class="form-label">Address</label>
                                               <input type="text" id="Address1" name="Address1" class="form-control form-control-md" placeholder="1234 Main St"  required>
+                                               <!-- user notification -->
+                                             <div class="valid-feedback">
+                                                Valid Data
+                                            </div>
+                                            <div class="invalid-feedback">
+                                                Please add address.
+                                            </div>
                                           </div>
                                       </div>
                                       <div class="col-md-12 mb-4">
@@ -192,21 +213,26 @@
                                   </div>
                                   <div>
                                     <div class="mb-2">
-                                        <label for="Country" class="form-label">Country</label>
-                                        <select name="Country" id="Country" required>
+                                        <label for="Region" class="form-label">Choose a Region</label>
+                                        <select name="Region" id="Region" required>
                                             <!-- 1st option -->
-                                            <option value="0" disabled selected>Choose a Country</option>
-                                            <option value="1">Australia</option>
-                                            <option value="2">Philippines</option>
-                                            <option value="3">United States of America</option>
+                                            <option value="0" disabled selected>Choose a Region</option>
+                                            <option value="1">NCR</option>
                                         </select>
-                                        <label for="State" class="form-label">City</label>
-                                        <select name="State" id="State" required>
+                                        <label for="City" class="form-label">City</label>
+                                        <select name="City" id="City" required>
                                               <!-- 2nd option -->
                                             <option value="0" disabled selected> Choose a City</option>
-                                            <option value="A">State A</option>
-                                            <option value="B">State B</option>
-                                            <option value="C">State C</option>
+                                            <option value="A">Manila</option>
+                                            <option value="B">Pasay</option>
+                                            <option value="C">Caloocan</option>
+                                            <option value="D">Muntinlupa</option>
+                                            <option value="E">Makati</option>
+                                            <option value="F">Parañaque</option>
+                                            <option value="G">Pasig</option>
+                                            <option value="H">Pateros</option>
+                                            <option value="I">Navotas</option>
+                                            <option value="J">Malabon</option>
                                         </select>
                                     </div>
                                 </div>
@@ -254,20 +280,41 @@
                                     <div class="col-md-6 mb-4">
                                         <div class="form-outline">
                                             <label for="Cnumber" class="form-label">Credit Card Number</label>
-                                            <input type="number" id="Cnumber" name="Cnumber" class="form-control form-control-md" required >
+                                            <input type="number" id="Cnumber" name="Cnumber" class="form-control form-control-md" maxlength="16" size="16" minlength="16" required >
+                                            <!-- user notification -->
+                                            <div class="valid-feedback">
+                                                Valid Data
+                                            </div>
+                                            <div class="invalid-feedback">
+                                                Add 16 digit number stated in the card.
+                                            </div>
                                         </div>
                                     </div>
                                 <div class="row">
                                     <div class="col-md-6 mb-4">
                                         <div class="form-outline">
                                             <label for="Expiration" class="form-label">Expiration Number</label>
-                                            <input type="month" id="Expiration" name="Expiration" class="form-control form-control-md" required >
+                                            <input type="month" id="monthPicker" name="Expiration" class="form-control form-control-md" required >
+                                            <!-- user notification -->
+                                            <div class="valid-feedback">
+                                                Valid Data
+                                            </div>
+                                            <div class="invalid-feedback">
+                                                Add Expiry Date.
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-md-6 mb-4">
                                         <div class="form-outline">
                                             <label for="CVV" class="form-label">CVV</label>
-                                            <input type="number" id="CVV" name="CVV" class="form-control form-control-md" maxlength="3" min="0"required >
+                                            <input type="number" id="CVV" name="CVV" class="form-control form-control-md" maxlength="3" size="3" min="3"required >
+                                              <!-- user notification -->
+                                              <div class="valid-feedback">
+                                                Valid Data
+                                            </div>
+                                            <div class="invalid-feedback">
+                                                Add CVV from your card.
+                                            </div>
                                         </div>
                                 </div>
                     <!-- this is the checkout button -->

@@ -1,3 +1,15 @@
+// Get the current date
+let currentDate = new Date();
+
+// Calculate the current year and month
+let currentYear = currentDate.getFullYear();
+let currentMonth = currentDate.getMonth() + 1; // Months are zero-indexed, so add 1
+
+// Set the minimum value for the month picker
+let monthPicker = document.getElementById("monthPicker");
+monthPicker.setAttribute("min", `${currentYear}-${currentMonth.toString().padStart(2, '0')}`);
+
+// logIn event
 let sLogin = document.getElementById("studentLogin");
 
 // this is for getting the data//

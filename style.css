@@ -355,3 +355,7 @@ section .hero_content{
   font-size: large;
   padding-top: 3%;
 }
+/* Modal */
+.modal-body{
+  background-color: pink;
+}
